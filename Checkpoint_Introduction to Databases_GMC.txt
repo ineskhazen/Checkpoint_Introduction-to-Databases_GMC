@@ -1,0 +1,71 @@
+RDBMS (relational database management   system):
+Definition:
+An RDBMS is a type DBMS that stores data in a row-based table structure((datasets with rows and columns)  which connects related data elements.
+Advantages:
+
+-Store data using structured query language (SQL) to manage and query data.
+-Can manage large amount of data.
+-employs the relational data model which data are organized into tables.
+-Gives relationships between data elements (its incorporated tables of data).
+-Offer the security  and consistency of the data.
+The most widely  RDBMSs used are: MySQL,PostgreSQL and SQL Server.
+
+ What is SQL?
+
+ -SQL abbreviation of  Structured Query Language, is the standard language for interacting with relational databases (creating, modifying and retrieving data )
+
+ -SQL is easy to master our data  because it’s not a prommaning language( its syntax is similar to logical English sentences)
+
+-SQL used for manipulate, and manage the data in RMDBSs by create various functions, procédures, modules,...
+
+
+
+
+MySQL
+Présentation:
+-MySQL, the most popular Open Source SQL relational database management system which implements a client-server model owned by Oracle. Because it was designed for speed and reliability.
+Fonctionnement: How Does MySQL Work?
+MySQL creates a database for storing and manipulating data, defining the relationship of each table.
+Clients can make requests by typing specific SQL statements on MySQL.
+The server application will respond with the requested information and it will appear on the clients’ side.
+
+PostgreSQL:
+
+
+Présentation: 
+-Also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance. It was originally named POSTGRES, referring to its origins as a successor to the Ingres database developed at the University of California, Berkeley. 
+-PostgreSQL is used as the primary data store or data warehouse for many web, mobile, geospatial, and analytics applications.
+-PostgreSQL can store more data types than the traditional simple types integers, characters, etc. User can create types, functions, use type inheritance, etc.
+-Postgres is capable of efficiently handling multiple tasks at the same time, a characteristic known as concurrency. It achieves this without read locks thanks to its implementation of Multiversion Concurrency Control (MVCC), which ensures the atomicity, consistency, isolation, and durability of its transactions, also known as ACID compliance.
+
+
+
+Fonctionnalité:
+
+-Postgres is based on the classic client-server model: the central “postmaster” server component manages all database files as well as all connections established for communication (input and output) with the database server.
+-Users only need an appropriate client program to establish the connection, while the PostgreSQL with psql software package already has a native solution built in to operate through the command line or terminal. 
+-Alternatively, you can switch to various applications with graphical user interfaces, such as pgAdmin or phpPgAdmin, which can be installed and used. In the case of interactive websites, the web server usually assumes the role of the client.
+
+SQL Server
+Définition: SQL Server is a relational database management system, or RDBMS, developed and marketed by Microsoft.Currently, SQL Server works both Windows and Linux.
+Fonctionnalité:
+-SQL Server consists of two main components: Database Engine and SQLOS.
+1)Database Engine: the core component of the SQL Server,  consists of a relational engine that processes queries(requests data from the storage engine based on the input query and processed the results: memory management, thread and task management, ...)  and a storage engine that manages database files, pages, pages, index, etc(storage and retrieval of data from the storage systems such as disks and SAN).
+2)SQLOS: Server Operating System provides many operating system services such as memory and I/O management,exception handling and synchronization services.
+
+
+
+advantages:SQL Server provides:
+-data management :Server Integration Services (SSIS), SQL Server Data Quality Services, and SQL Server Master Data Services... 
+-data analysis:Server Analysis Services (SSAS).
+
+Comparaison between MySQL,PostgreSQL and 
+SQL Server
+
+
+-Both MySQL and PostgreSQL databases support stored procedures, but MySQL only supports standard SQL syntaxes, while PostgreSQL supports very advanced procedures. SQL Server has the greatest contrast in SQL syntax, as well as a wide variety of functions not available in other platforms. 
+-The  syntax of PostgreSQL  is most closely conforms to Standard SQL than  the syntax of  MySQL.
+-PostgreSQL is better in query optimization and query execution as compared to MySQL.In SQL Server query processing improvements, and much more.
+-MySQL is better for websites and online transactions while PostgreSQL is better for large and complicated analytical processes.
+-For the INSERT operations and  transaction processing MySQL worked faster than SQL Server.However,PostgreSQL is known to be faster while handling massive data sets, complicated queries, and read-write operations.
+
